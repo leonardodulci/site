@@ -1,0 +1,87 @@
+@charset "UFT-8"
+
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+body{
+    margin: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(226, 226, 226);
+}
+header {
+    
+ 
+    background-image: linear-gradient(to bottom, rgb(3, 112, 3), rgb(1, 56, 8));
+}
+header > #principal{
+    text-align: center;
+    font-family: 'anton', Arial, Helvetica, sans-serif;
+    color: aliceblue;
+      
+}
+header > p{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+}
+span > a{
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: rgb(174, 253, 198);
+    text-decoration: none;
+}
+span > a:hover{
+    text-decoration: underline;
+}
+main{
+    padding: 0px 30px 10px 30px;
+    margin: 20px 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    border-width: 800px;
+    text-align: center;
+}
+
+
+main > #principal{
+    font-family: 'rubik iso', Arial, Helvetica, sans-serif;
+    background-color: white;
+  
+}
+main > h2{
+    background-color: aquamarine;
+    font-family: 'rubik iso', Arial, Helvetica, sans-serif;
+}
+main > #prin{
+    background-color: rgb(1, 73, 1);
+    margin: 15px 18px 15px 18px;
+    padding: 15px 18px 15px 18px;
+}
+main > div.informativo{
+    outline: 10px;
+    background-color: green;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
+}
+main > div.informativo > h3{
+    font-family: 'roboto';
+    color: white;
+    text-align: left;
+    margin: 7px 0px 0px 7px;
+}
+main > div.informativo > ul{
+    background-color: rgb(157, 243, 243);
+    border-bottom: 5px 5px;
+    text-align: left;
+}
+main > span > li{
+    margin: auto;
+}
+footer{
+    text-align: center;
+}
+
+
+
+
